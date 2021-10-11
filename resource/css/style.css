@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .header {
   display: flex;
   width: 100%;
@@ -14,22 +9,112 @@
 .header__logo {
   color: #fa6980;
   margin-left: 20px;
-}
-.header__items {
-  display: flex;
-  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .list__items {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 .item {
   margin-right: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+li:first-child {
+  opacity: 1;
 }
 .avatar > img {
   height: 30px;
   width: 30px;
   border-radius: 50%;
   margin: 0 20px;
+}
+.latest-news {
+  display: flex;
+}
+.large-news {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  height: 600px;
+  width: 840px;
+  background: url("../image/main1.jpg") top center / cover no-repeat;
+}
+.new-post {
+  font-size: 24px;
+  width: 660px;
+  height: 250px;
+}
+.new-post__description {
+  font-size: 16px;
+}
+hr {
+  margin: 40px 0;
+  color: var(--white-color);
+}
+.small__title {
+  margin-bottom: 10px;
+}
+.new-post__description {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.new-post__button {
+  width: 134px;
+  height: 46px;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+.small-news {
+  width: 600px;
+  display: flex;
+}
+.more-news {
+  margin: 100px 120px 0 100px;
+}
+
+.more {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #ebeded;
+  padding-bottom: 40px;
+}
+.icon__arrow--left {
+  font-size: 14px;
+  opacity: 0.3;
+  margin: 0 20px 0 180px;
+}
+.icon__arrow--right {
+  font-size: 14px;
+}
+.small-news__title {
+  margin-top: 40px;
+  color: var(--title-link);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.small-news__article-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.small-news__description {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #a6adb4;
+}
+.small-news__time-icon {
+  font-size: 13px;
+  color: #a6adb4;
 }

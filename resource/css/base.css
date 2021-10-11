@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --button-color: #fa6980;
+  --title-link: #fa6980;
+  --white-color: #fff;
+}
+
+html {
+  font-family: "Acumin Pro", sans-serif;
+}
