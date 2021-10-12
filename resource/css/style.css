@@ -43,7 +43,7 @@ li:first-child {
   align-items: center;
   color: var(--white-color);
   height: 600px;
-  width: 840px;
+  width: 58.3%;
   background: url("../image/main1.jpg") top center / cover no-repeat;
 }
 .new-post {
@@ -72,9 +72,12 @@ hr {
   border-radius: 8px;
   border: none;
   outline: none;
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--white-color);
 }
 .small-news {
-  width: 600px;
+  width: 41.7%;
   display: flex;
 }
 .more-news {
@@ -87,11 +90,13 @@ hr {
   font-weight: bold;
   border-bottom: 2px solid #ebeded;
   padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .icon__arrow--left {
   font-size: 14px;
   opacity: 0.3;
-  margin: 0 20px 0 180px;
+  margin-right: 20px;
 }
 .icon__arrow--right {
   font-size: 14px;
@@ -112,9 +117,56 @@ hr {
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 10px;
-  color: #a6adb4;
+  color: var(--primary-color);
 }
 .small-news__time-icon {
   font-size: 13px;
-  color: #a6adb4;
+  color: var(--primary-color);
+}
+.small-news__time-icon > i {
+  margin-right: 10px;
+}
+
+/*-------------------------------------------------
+----------------------MAIN CONTAINER---------------
+---------------------------------------------------*/
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.title-trending {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.post-trending__img {
+  background-size: cover;
+  padding-top: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.post-trending__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 40px 0 10px 40px;
+}
+.post-trending__description {
+  font-size: 13px;
+  line-height: 23px;
+  color: var(--primary-color);
+  margin: 0 40px 10px 40px;
+}
+.post-trending__time {
+  font-size: 13px;
+  color: var(--primary-color);
+  margin: 0 40px 10px 40px;
+}
+.post-trending__time > i {
+  font-size: 14px;
+  margin-right: 10px;
 }
