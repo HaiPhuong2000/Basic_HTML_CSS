@@ -176,12 +176,16 @@
     width: 100%;
     padding: 0 16px;
   }
+  .header__mobile > a {
+    color: #000;
+  }
   .icon-bar {
     font-size: 13px;
     margin-left: 16px;
   }
 
-  .logo {
+  .logo > a {
+    text-decoration: none;
     font-size: 13px;
     font-weight: bold;
     color: var(--primary-color);
